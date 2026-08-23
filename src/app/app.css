@@ -1,0 +1,9 @@
+main {
+    background-color: var(--bg-primary-colour);
+}
+
+h1 {
+    font-family: var(--font-body);
+    color: var(--primary-colour);
+    text-decoration: underline;
+}

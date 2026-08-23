@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg-primary-colour);
+}
+
+h1 {
+    font-family: var(--font-logo);
+    color: var(--primary-colour);
+}
+
+li {
+    list-style: none;
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+li > a {
+    font-family: var(--font-body);
+    color: var(--primary-colour);
+}
