@@ -5,19 +5,20 @@ header {
     align-items: center;
     justify-items: center;
     padding: 1rem 2rem;
-    background-color: var(--bg-primary-colour);
+    background-color: transparent;
 }
 
-h1 {
+.logo {
     font-family: var(--font-logo);
     color: var(--primary-colour);
+    font-size: var(--font-2xl);
 }
 
-ul {
-    /* @media screen and (max-width: 768px) {
+/* ul {
+     @media screen and (max-width: 768px) {
         visibility: hidden;
-    } */
-}
+    }
+} */
 
 li {
     list-style: none;

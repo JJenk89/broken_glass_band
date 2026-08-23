@@ -1,2 +1,21 @@
 <h1 class="page-title">{{ title }}</h1>
-    <p>tour works!</p>
+    <h2>Welcome to the Tour page!</h2>
+    <p>Check out the upcoming tour dates for the Broken Glass Band and catch their electrifying performances live!</p>
+
+<section class="tour-dates">
+    <h3>Upcoming Tour Dates</h3>
+    @if (loading()) {
+        <p>Loading tour dates...</p>    
+    } @else if (error()) {
+        <p class="error">Error loading tour dates: {{ error() }}</p>
+    } @else {
+        <ul>
+            @for (tourDate of tourDates(); track tourDate.id) {
+                <li>
+                    <p><strong>{{ tourDate.date }}</strong> {{ tourDate.location }}</p>
+                    <p>Time: {{ tourDate.time }}</p>
+                </li>
+            }
+        </ul>
+    }
+</section>

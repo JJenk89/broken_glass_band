@@ -20,6 +20,14 @@
   padding: 0;
 }
 
+body {
+    background-color: var(--bg-primary-colour);
+    color: var(--primary-colour);
+    font-family: var(--font-body);
+    font-size: var(--font-md);
+    line-height: 1.6;
+}
+
 p {
     color: var(--primary-colour);
     font-family: var(--font-body);

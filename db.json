@@ -1,0 +1,14 @@
+{
+  "tourDates": [
+    { "id": 1, "location": "Boston, MA", "date": "2027-05-15", "time": "8:00 PM" },
+    { "id": 2, "location": "New York, NY", "date": "2027-05-17", "time": "8:00 PM" },
+    { "id": 3, "location": "Philadelphia, PA", "date": "2027-05-19", "time": "8:00 PM" },
+    { "id": 4, "location": "Chicago, IL", "date": "2027-05-22", "time": "8:00 PM" },
+    { "id": 5, "location": "Los Angeles, CA", "date": "2027-05-26", "time": "8:00 PM" },
+    { "id": 6, "location": "London, UK", "date": "2027-06-02", "time": "8:00 PM" },
+    { "id": 7, "location": "Paris, France", "date": "2027-06-04", "time": "8:00 PM" },
+    { "id": 8, "location": "Amsterdam, Netherlands", "date": "2027-06-06", "time": "8:00 PM" },
+    { "id": 9, "location": "Berlin, Germany", "date": "2027-06-08", "time": "8:00 PM" },
+    { "id": 10, "location": "Vienna, Austria", "date": "2027-06-10", "time": "8:00 PM" }
+  ]
+}
