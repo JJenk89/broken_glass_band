@@ -13,6 +13,12 @@ h1 {
     color: var(--primary-colour);
 }
 
+ul {
+    /* @media screen and (max-width: 768px) {
+        visibility: hidden;
+    } */
+}
+
 li {
     list-style: none;
     margin: 0 1rem;

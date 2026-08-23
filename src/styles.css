@@ -22,4 +22,5 @@
 
 p {
     color: var(--primary-colour);
+    font-family: var(--font-body);
 }

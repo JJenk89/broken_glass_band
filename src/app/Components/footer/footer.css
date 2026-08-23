@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--bg-primary-colour);
+    color: var(--primary-colour);
+    border-top: 1px dashed var(--primary-colour);
+    padding-top: 5rem;
+    margin-top: 100%;
+}
