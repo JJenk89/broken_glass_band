@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './tour.html',
   styleUrl: './tour.css',
 })
-export class Tour {}
+export class Tour {
+  title: string = 'Tour Dates';
+}

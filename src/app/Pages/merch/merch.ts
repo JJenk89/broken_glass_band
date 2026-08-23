@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './merch.html',
   styleUrl: './merch.css',
 })
-export class Merch {}
+export class Merch {
+  title: string = 'Merch';
+}
