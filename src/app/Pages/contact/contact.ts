@@ -23,7 +23,7 @@ export class Contact {
   submitForm() {
     if (this.contactForm.valid) {
       console.log('Form submitted:', this.contactForm.value);
-      // You can add your form submission logic here, e.g., sending data to a server
+      // Console log form values for demo and testing purposes
     } else {
       console.log('Form is invalid');
     }

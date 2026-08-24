@@ -1,0 +1,26 @@
+.error-not-found {
+    color: var(--primary-colour);
+    font-family: var(--font-logo);
+    text-align: center;
+    font-size: var(--font-2xl);
+    margin-top: 50%;
+}
+
+.error-message > p {
+    text-align: center;
+    line-height: 2;
+}
+
+p {
+    color: var(--primary-colour);
+    font-family: var(--font-body);
+    text-align: center;
+    margin: 2rem;
+}
+
+a {
+    color: rgb(104, 143, 230);
+    font-family: var(--font-body);
+    text-decoration: underline;
+    text-align: center;
+}
