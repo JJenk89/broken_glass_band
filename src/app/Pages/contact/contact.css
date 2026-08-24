@@ -1,0 +1,43 @@
+form, .form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 0.2em;
+    font-size: var(--font-md);
+    border: 1px solid var(--primary-colour);
+    border-radius: 4px;
+    width: 30ch;
+}
+
+textarea {
+    padding: 0.2em;
+    font-size: var(--font-md);
+    font-family: inherit;
+    border: 1px solid var(--primary-colour);
+    border-radius: 4px;
+    width: 30ch;
+    height: 10ch;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    visibility: hidden;
+}
+
+button {
+    background-color: var(--primary-colour);
+    color: var(--bg-primary-colour);
+    border: none;
+    padding: 0.5em 1em;
+    font-size: var(--font-md);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}

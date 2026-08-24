@@ -37,4 +37,5 @@ p {
     color: var(--primary-colour);
     font-family: var(--font-body);
     text-decoration: underline;
+    text-align: center;
 }
