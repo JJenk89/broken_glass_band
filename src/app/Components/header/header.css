@@ -30,3 +30,7 @@ li > a {
     font-family: var(--font-body);
     color: var(--primary-colour);
 }
+
+.mobile-header {
+    display: none;
+}

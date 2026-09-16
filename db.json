@@ -10,5 +10,12 @@
     { "id": 8, "location": "Amsterdam, Netherlands", "date": "2027-06-06", "time": "8:00 PM" },
     { "id": 9, "location": "Berlin, Germany", "date": "2027-06-08", "time": "8:00 PM" },
     { "id": 10, "location": "Vienna, Austria", "date": "2027-06-10", "time": "8:00 PM" }
+  ],
+  "merchandise": [
+    { "id": 1, "name": "Band T-Shirt", "description": "High-quality cotton t-shirt with band logo.", "price": 25.00 },
+    { "id": 2, "name": "Hoodie", "description": "Comfortable hoodie with front pocket and band logo.", "price": 45.00 },
+    { "id": 3, "name": "Poster", "description": "Limited edition poster of the latest album cover.", "price": 15.00 },
+    { "id": 4, "name": "Vinyl Record", "description": "Special edition vinyl record of the latest album.", "price": 30.00 },
+    { "id": 5, "name": "Cap", "description": "Stylish cap with embroidered band logo.", "price": 20.00 }
   ]
 }
