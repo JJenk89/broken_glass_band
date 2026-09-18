@@ -12,6 +12,10 @@ export class Card {
     private merchService = inject(MerchService);
   
     merch = signal<MerchData[]>([]);
+
+    addToCart(item: MerchData) {
+      console.log(`${item.name} with id: ${item.id} added to cart!`);
+    }
   
     constructor() {
       this.merchService.getMerch().subscribe({
