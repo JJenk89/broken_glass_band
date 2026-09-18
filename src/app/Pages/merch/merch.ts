@@ -1,10 +1,11 @@
 import { Component, inject, signal } from '@angular/core';
 import { MerchService } from '../../merch.service';
 import { MerchData } from './merch-model';
+import { Card } from '../../Components/card/card';
 
 @Component({
   selector: 'app-merch',
-  imports: [],
+  imports: [Card],
   templateUrl: './merch.html',
   styleUrl: './merch.css',
 })

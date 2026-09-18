@@ -8,12 +8,7 @@
         <p class="error">Error loading merchandise: {{ error() }}</p>
     } @else {
         @for (item of merch(); track item.id) {
-        <div class="card">
-            <h3>{{ item.name }}</h3>
-            <p>Price: {{ item.price }}</p>
-            <p>{{ item.description }}</p>
-            <button>Add to Cart</button>
-        </div>
+        <app-card></app-card>
         }
     }
 </section>
